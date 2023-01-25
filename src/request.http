@@ -1,0 +1,31 @@
+# https://github.com/Huachao/vscode-restclient
+
+###
+GET http://localhost:8080/api/lists
+
+###
+GET http://localhost:8080/api/lists/63bba1a0aa5f0a5ecac2cfcd
+
+### 
+POST http://localhost:8080/api/lists
+content-type: application/json
+
+{
+  "day": "5",
+  "plus": "10000",
+  "minus": "2500",
+  "val": "b"
+}
+
+### delete
+DELETE  http://localhost:8080/api/lists/63bbcb6c2e99a311566b5a1f
+content-type: application/json
+
+### update
+PATCH   http://localhost:8080/api/lists/63be1202810d1aaad68c37de
+content-type: application/json
+
+{
+  "day":"5",
+  "plus": "1500"
+}
