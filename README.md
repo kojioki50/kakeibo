@@ -12,7 +12,6 @@ react,nodejs,mongodbで家計簿を管理するためのアプリです。
 
 server/app.mjsを起動します。
 フロントはbuildフォルダを取得するようにserver/app.mjsに記述しています。
-srcフォルダを変更した際は一度npm buildをしてからnpm startして下さい。
 データベースの作成しないとデータの登録はできません。
 server/helpers/db.mjsと下記サイトを参照して設定を行なってください。
 (https://www.mongodb.com/)
